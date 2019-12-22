@@ -10,7 +10,7 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=b234ee4d69f5fce4486a80fdaf4a4263"
 
 RDEPENDS_${PN} = "networkmanager iw avahi-daemon avahi-autoipd iputils-arping wpa-supplicant-cli \
                   python3-jinja2 python3-pygobject python3-dbus python3-networkmanager python3-pyinotify python3-flask coreutils \
-                  python3-core python3-setuptools" 
+                  python3-core python3-setuptools python3-multiprocessing" 
 
 SRC_URI = "git://github.com/davesteele/comitup \
            file://web_path_hack.patch \
